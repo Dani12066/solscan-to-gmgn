@@ -1,0 +1,28 @@
+.gmgn-redirect-btn {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 10000;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.gmgn-redirect-btn:hover {
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #7d9cfb, #b687eb);
+}
+
+.gmgn-redirect-btn:active {
+  transform: translateY(-50%) scale(0.98);
+}
