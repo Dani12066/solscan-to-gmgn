@@ -26,8 +26,7 @@ When you visit a Solscan account page (e.g. `https://solscan.io/account/<address
 solscan-to-gmgn/
 ├── manifest.json   # Extension configuration (Manifest V3)
 ├── content.js      # Content script - button injection logic
-├── styles.css      # Button styling
-└── icons/          # Extension icons (48x48, 128x128)
+└── styles.css      # Button styling
 ```
 
 ## Tech Stack

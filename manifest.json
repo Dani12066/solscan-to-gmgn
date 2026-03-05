@@ -3,10 +3,6 @@
   "name": "Solscan to GMGN Redirect",
   "version": "1.0",
   "description": "Adds a floating button on Solscan wallet pages to quickly open the same address on GMGN Analytics.",
-  "icons": {
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
   "content_scripts": [
     {
       "matches": ["https://solscan.io/account/*"],
